@@ -103,7 +103,14 @@ Sistema completo para cadastro de clientes e seus endereços, com suporte a uplo
 ## Layout web
 ![Image](https://github.com/user-attachments/assets/bca089ca-333a-4195-a4c0-dc0fecb1f77f)
 ![Image](https://github.com/user-attachments/assets/ff65d115-8d6f-41f2-a564-15b982952654)
-
+![Image](https://github.com/user-attachments/assets/a7f3fe38-bf88-420d-b1f2-7c7048de4deb)
+![Image](https://github.com/user-attachments/assets/691e48b4-d346-423b-91d1-ac3df55c07aa)
+![Image](https://github.com/user-attachments/assets/433bba67-004c-44eb-ab19-251100e89575)
+![Image](https://github.com/user-attachments/assets/69070346-325d-48c7-90f5-2bbb195bd108)
+![Image](https://github.com/user-attachments/assets/4e2f8e26-084f-42cf-a7ab-e7d78a131c4a)
+![Image](https://github.com/user-attachments/assets/9e3b4ba6-10d6-4be4-9324-693fb2f679e5)
+![Image](https://github.com/user-attachments/assets/b01af503-ffbc-4ef6-a6ec-2708ae20119e)
+![Image](https://github.com/user-attachments/assets/31788de9-18d6-4f9b-9cc3-d2699350d9e0)
 
 ## Video
 
