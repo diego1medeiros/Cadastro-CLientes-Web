@@ -78,6 +78,7 @@ Este repositório contém dois projetos separados que compõem o sistema de cada
 
 ### Tecnologias Utilizadas
 
+
 * JavaServer Faces (JSF)
 * PrimeFaces
 * HTML
@@ -85,7 +86,7 @@ Este repositório contém dois projetos separados que compõem o sistema de cada
 * Javascript
 * XHTML
 * Managed Beans (escopos de sessão, request)
-
+* API JAX-RS Client (javax.ws.rs.client) para realizar chamadas RESTful:
 ### Executar
 
 1. Importe o projeto em seu IDE
