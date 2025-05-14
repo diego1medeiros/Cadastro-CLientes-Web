@@ -22,8 +22,15 @@ Este repositório contém dois projetos separados que compõem o sistema de cada
 * [Autor](#autor)
 
 ## Visão Geral
+## 🔄 Integração entre módulos
 
-Sistema completo para cadastro de clientes e seus endereços, com suporte a upload de imagens, autenticação de funcionários e busca de endereços via WebService (CEP).
+ Sistema completo para cadastro de clientes e seus endereços, com suporte a upload de imagens, autenticação de funcionários e busca de endereços via WebService 
+ (CEP).
+ O **cadastro-cliente-web** comunica-se com o **cadastro-clientes-model** via chamadas REST HTTP.
+ A autenticação e os dados dos clientes são gerenciados no back-end, enquanto o front-end consome e exibe as informações usando PrimeFaces.
+ Imagens são armazenadas no servidor e recuperadas via streaming para exibição na interface JSF.
+ Endereços são preenchidos automaticamente por meio de uma integração com o WebService de CEP (https://cep.republicavirtual.com.br).
+
 
 ---
 
@@ -222,6 +229,20 @@ Utilizar `multipart/form-data` com campos:
 4. **Acesse:** `http://localhost:8080/cadastro-cliente-web`
 
 ---
+
+## 🔒 Segurança
+
+- Autenticação básica de usuários (funcionários) implementada no backend.
+- Controle de sessão via JSF no front-end.
+- Acesso controlado por perfil pode ser estendido no futuro.
+
+## 🧪 Boas Práticas Adotadas
+
+- Separação clara de responsabilidades (SRP).
+- Uso de DTOs e ModelMapper para evitar acoplamento entre camadas.
+- Camada DAO com uso de **stored procedures** no SQL Server para melhorar performance e encapsular lógica de banco.
+- Validação de dados nos formulários (JSF) e no back-end.
+- Estrutura modular para facilitar manutenção e testes futuros.
 
 ## Observações Finais
 
