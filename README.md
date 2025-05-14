@@ -237,7 +237,7 @@ Utilizar `multipart/form-data` com campos:
 Desenvolvedor Java Fullstack
 Magé, RJ
 
-🔗 [LinkedIn](https://linkedin.com/in/diegomedeirosjesus)
+🔗 [LinkedIn](https://www.linkedin.com/in/diego-medeiros-jesus-50746717a)
 ✉️ [diegocielle@gmail.com](mailto:diegocielle@gmail.com)
 
 Agradeço a oportunidade de participar do processo seletivo. Estou à disposição para esclarecer quaisquer dúvidas e demonstrar o sistema em execução.
