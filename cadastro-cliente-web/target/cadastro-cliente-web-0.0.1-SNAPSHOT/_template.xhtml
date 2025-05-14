@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<style>
+html {
+	background-image: url("thomas5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Cadastro</title>
+</h:head>
+<h:body>
+	<div id="cabecalho">
+		<h:form>
+			<p:sidebar widgetVar="sidebar3" position="top"
+				style="opacity:0.9;font-size: 8px;">
+
+				<p:growl id="messages" />
+				<p:menubar
+					style=" font-weight: bold;	bold;background-color:#32CD32!important;">
+					<p:submenu label="Menu" icon="pi pi-home"
+						style="font-size: 28px; font-weight: bold;	">
+						<p:menuitem value="Menu Principal" icon="pi pi-home"
+							style=" font-size: 28px; font-weight: "
+							url="http://localhost:8080/cadastro-cliente-web/menuPrincipal.xhtml" />
+					</p:submenu>
+					<p:submenu label="Cadastro" icon="pi pi-fw pi-file"
+						style=" font-size: 28px; font-weight: bold;	">
+						<p:submenu label="Novo" icon="pi pi-fw pi-plus"
+							style=" font-size: 28px; font-weight: bold;	">
+							<p:menuitem value="Clientes" icon="pi pi-fw pi-bookmark"
+								style=" font-size: 28px; font-weight: bold;	"
+								url="http://localhost:8080/cadastro-cliente-web/cadastrocliente.xhtml" />
+							<p:menuitem value="Endereços" icon="pi pi-fw pi-bookmark"
+								style=" font-size: 28px; font-weight: bold;	"
+								url="http://localhost:8080/cadastro-cliente-web/cadastroendereco.xhtml" />
+							<p:menuitem value="Funcionarios" icon="pi pi-fw pi-bookmark"
+								style=" font-size: 28px; font-weight: bold;	"
+								url="http://localhost:8080/cadastro-cliente-web/cadastrarfuncionario.xhtml" />
+						</p:submenu>
+					</p:submenu>
+					<f:facet name="options">
+						<p:outputLabel
+							value="#{funcionariobean.usuarioLogado.nomeFuncionario}"
+							icon="pi pi-fw pi-sign-out"
+							style=" font-size: 28px; margin: 0 15px;"
+							styleClass="ui-button-danger" />
+						<p:commandLink value="SAIR" icon="pi pi-fw pi-sign-out"
+							style=" font-size: 28px;background-color:#32CD32!important"
+							action="#{funcionariobean.deslogar}"
+							styleClass="ui-button-danger" />
+					</f:facet>
+				</p:menubar>
+			</p:sidebar>
+			<center>
+				<br /> <br /> <br />
+				<p:commandButton value="Menu"
+					styleClass="rounded-button ui-button-success"
+					style="width:220px;height:90px;font-size: 38px;opacity:0.9; font-weight: bold;"
+					type="button" onclick="PF('sidebar3').show()" icon="pi pi-bars" />
+			</center>
+
+		</h:form>
+		<h1>
+			<ui:insert name="titulo">
+			</ui:insert>
+		</h1>
+	</div>
+	<div id="conteudo">
+		<ui:insert name="conteudo">
+
+		</ui:insert>
+	</div>
+</h:body>
+</html>
