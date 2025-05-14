@@ -1,0 +1,5 @@
+com.cadastroclientes.controller
+com.cadastroclientes.dao
+com.cadastroclientes.dto
+com.cadastroclientes.model
+com.cadastroclientes.service
