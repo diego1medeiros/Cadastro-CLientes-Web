@@ -114,7 +114,8 @@ Sistema completo para cadastro de clientes e seus endereços, com suporte a uplo
 ![Image](https://github.com/user-attachments/assets/31788de9-18d6-4f9b-9cc3-d2699350d9e0)
 
 ## Video
-
+- video do sistema no youtube 
+https://youtu.be/J1C1Ikxi8bI
 
 ## Diagrama de Arquitetura
 
