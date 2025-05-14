@@ -99,11 +99,12 @@ Sistema completo para cadastro de clientes e seus endereços, com suporte a uplo
 * Busca de endereço baseada em WebService `cep.republicavirtual.com.br`
 
 ---
+
 ## 📽️ Demonstração
 
-## !!!! 📽️ VIDEO !!!!
+[![Assista à demonstração do sistema](https://img.youtube.com/vi/J1C1Ikxi8bI/0.jpg)](https://www.youtube.com/watch?v=J1C1Ikxi8bI)
 
-[![Veja o vídeo](https://img.youtube.com/vi/SEU_VIDEO_ID/0.jpg)](https://youtu.be/J1C1Ikxi8bI)
+
 
 ## Layout web
 ![Image](https://github.com/user-attachments/assets/bca089ca-333a-4195-a4c0-dc0fecb1f77f)
